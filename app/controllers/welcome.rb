@@ -1,6 +1,7 @@
 class App < Sinatra::Base
 
   get '/' do
-    'hello'
+    erb :'hello'
   end
+  
 end
